@@ -35,5 +35,6 @@ The opposite happens for underflows: `0 - 1` is `-1`, which is smaller than `u8:
 You can't get saturating arithmetic via the `overflow-checks` profile setting—you have to explicitly opt into it
 when performing the arithmetic operation.
 
-[^method]: You can think of methods as functions that are "attached" to a specific type.
-We'll cover methods (and how to define them) in the next chapter.
+[^method]:
+    You can think of methods as functions that are "attached" to a specific type.
+    We'll cover methods (and how to define them) in the next chapter.
